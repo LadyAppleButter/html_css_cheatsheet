@@ -1,0 +1,85 @@
+/*Idea is to have multiple pages attached this style sheet. Some selectors will remain constant across all pages (i.e. .description and .example) but some will change depending on the topic; element, attribute, value, and property classes are going to vary from page to page.*/
+
+/*Background color for entire webpage*/
+html{
+	background-color: #daa35f;
+}
+/*highlight key terms in paragraphs*/
+em{
+	color: blue;
+}
+
+/*Formatting for the entire table*/
+#formsheet {
+	border-style: solid;
+	margin:  5em;
+	border-color: #571808;
+	font-family: Menlo;
+	font-weight: normal;
+}
+
+/*Rows: padding, and font*/
+.element, .description, .name , .property{
+	padding: 0 1em;
+	font-size: 21px;
+	font-family: Menlo;
+	
+}
+
+
+.example{
+	text-align: left;
+	font-size: 18px;
+	padding-left: 1em;
+}
+
+.element, .description {
+	background-color: #c29154;
+}
+
+.name, .example {
+	background-color: #f3b66a;
+}
+
+
+/*Title Head and Table Data; font, color and border*/
+th{
+	text-align: left;
+	font-size: 25px;
+}
+th, td{
+	border-bottom: solid;
+	border-color: #571808;
+	color: #571808; /* Really like this color*/
+}
+
+
+/*Table columns; background color*/
+.colHead2, .colHead4 {
+	background-color: #c29154;
+	
+}
+/*Title on web page*/
+h1.pageTitle{
+	text-align: center;
+	font-size: 80px;
+	margin-top: 2em;
+	font-family: Menlo;
+	color: #302415;
+	
+}
+
+/*Title of the table*/
+h2.tableHead{
+	text-align: center;
+	font-size: 60px;
+	font-weight: normal;
+	font-family: Menlo;
+	color: #571808;
+}
+
+
+/*Text Area*/
+.topicTextarea td ,.topicFloat td {
+	border-style: none;
+}

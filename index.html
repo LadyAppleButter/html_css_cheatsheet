@@ -1,0 +1,85 @@
+<!DOCTYPE html> <!--Any changes that need to be made, make them on this page-->
+<html lang="en">
+	<head>
+		<link href="styles.css" type="text/css" rel="stylesheet"/>
+		<title>HTML CheatSheet: Position</title> <!--(Fri. 14 August 2020 12:24am)In the future, note whether or not the topic is based in CSS or HTML. For right now, all webpages have HTML cheatsheet but sometime down the road this needs to change.-->
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<!--Heading of the page-->
+		<h1 class="pageTitle">Position in CSS</h1>
+			<!--Name of table-->
+			<h2 class="tableHead">Position Property</h2>
+			<!--Beginning of table-->
+			<table id="formsheet">
+				<thead class="title">
+					<!--Column headings-->
+					<tr>
+						<th class="colHead1">Element</th>
+						<th class="colHead2">Name</th>
+						<th class="colHead3">Description</th>
+						<th class="colHead4">Example</th>
+					</tr>
+				</thead>
+				<tbody>
+					 <!--(Fri. 31 July 2020 12:05pm) the class values names represents the element being dicussed in that row (eg. f-row, the 'f' stands for form)
+
+						 (Fri. 14 August 2020 12:25am) for right now, all files will share the same classes and indexes; although is says class=topicForm, the format will be apply to other files (such as the position file).-->
+						 
+					<!--FORM-->	 
+					<tr class="topicForm">
+						<td class="element">&lt;form&gt;</td> 
+						
+						<!-- (Thurs. 30 July 2020 11:55pm) Decide whether to format the row headings as a whole or individually. Right now they are coded for individual formatting.
+						(Fri. 14 August 2020 ) The decision was to format the row headings seperately, just wanted to answer my own question. -->
+						
+						<td class="name">Form</td>
+						<td class="description">Used for collecting and sending information to some source (whether it be external or within the same folder). <br>Paired with the <em>action</em> attribute and the <em>method</em> attribute. </td>
+						<td class="example">&lt;form method="post" action="index.html"&gt; Enter favorite comfort food:<br> &lt;input type="text" name="food"/&gt;<br> &lt;input type="submit"/&gt;&lt;/form&gt;</td>
+					</tr>
+					
+					<!--INPUT-->
+					<tr class="topicInput">
+						<td class="element">&lt;input&gt;</td>
+						<td class="name">Input</td>
+						<td class="description">Creates a variety of fields to be used on a webpage (ie. checkbox). <br>The <em>name</em> attribute and the <em>type</em> attribute are normally required for the element to run. <br> Other attributes (such as <em>id</em>) could be use.</td>
+						<td class="example">&lt;input name="food" type="text" id="food"/&gt;</td>
+					</tr>
+					
+					<!--LABEL-->
+					<tr class="topicLabel">
+						<td class="element">&lt;label&gt;</td>
+						<td class="name">Label</td>
+						<td class="description">Provides an ID for an <em>input</em> element; Almost always paired with the <em>id</em> attribute and the <em>for</em> attribute.</td>
+						<td class="example">&lt;label for="food"&gt; Name of food: &lt;/label&gt;</td>
+					</tr>
+					
+					<!--SELECT-->
+					<tr class="topicSelect">
+						<td class="element">&lt;select&gt;</td>
+						<td class="name">Select</td>
+						<td class="description">Used to create a dropdown list. Paired with the <em>name</em> attribute and the <em>value</em> attribute as well as the <em>option</em> element. </td>
+						<td class="example">&lt;select name="types of breads"&gt; &lt;option value="potato"&gt; Potato &lt;/option&gt; &lt;option value="wheat"&gt; Wheat &lt;/option&gt;<br> &lt;option value="white"&gt; White &lt;/option&gt; <br>&lt;/select&gt;</td>
+					</tr>
+					
+					<!--DATALIST-->
+					<tr class="topicDatalist">
+						<td class="element">&lt;datalist&gt;</td>
+						<td class="name">Datalist</td>
+						<td class="description">Creates an autocomplete/select function for a webpage. <br>Commonly paired with the <em>input</em> element, the <em>option</em> element, the <em>id</em> attribute, and the <em>value</em> attribute.</td>
+						<td class="example">&lt;input list="apples"/&gt; &lt;datalist id="apples"&gt; &lt;option value="fuji"/&gt;&lt;option value="granny smith"/&gt; &lt;option value="red delicious"/&gt; &lt;/datalist&gt;</td>
+					</tr>
+					
+					<!--TEXTAREA-->
+					<tr class="topicTextarea">
+						<td class="element">&lt;textarea&gt;</td>
+						<td class="name">Textarea</td>
+						<td class="description">
+						Used to create a form with multiple lines for input. 
+						<br>Commonly paired with the <em>rows</em> attribute, the <em>cols</em> attribute, and the <em>name</em> attribute. However, this is not a exhausted list; other attributes can be added if needed.</td>
+						<td class="example">&lt;textarea cols="5" row="6" name="recipe"&gt; &lt;/textarea&gt;</td>
+					</tr> 
+				</tbody>
+			</table>
+	</body>
+</html>
