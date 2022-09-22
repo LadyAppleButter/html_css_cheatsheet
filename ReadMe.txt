@@ -39,6 +39,21 @@ Today's agenda:
 			semantic
 			table
 			intro
+
+To-Done:
+		Removed all the previous content from index
+		Renamed the h1 of index to Main
+		Created 3 new html files:
+			semantic
+			table
+			intro 
+		Created new folder called misc
+		Moved position file to misc folder
+		Connected the necessary files together with links
+		
+
+Next Time: 
+		update form file
 			
 
 			
