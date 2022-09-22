@@ -30,7 +30,17 @@ In the future:
 		replace table format with either grid or flex box
 		change color scheme
 		intergrate some javascript
-		
+
+Today's agenda:
+		Rework index to be the main html page
+		Link the current pages together
+		Rename the pages to more suitable titles
+		create a page for:
+			semantic
+			table
+			intro
+			
+
 			
 			
 			
