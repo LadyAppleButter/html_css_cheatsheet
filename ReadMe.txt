@@ -61,6 +61,8 @@ To-Done:
 Next Time: 
 		update form file
 		
+
+		
 Date: Tuesday 27 September 2022
 Time: 7:09pm
 
@@ -70,6 +72,25 @@ Today's Agenda:
 		update form file:
 			work on input section
 			rename 'elements' to 'tags'
+			
+To - Done:
+		updated form file:
+			worked on input section (forgot how indepth the input element was)
+				moved input to the top of the table (most likely temperary) 
+				updated input element:
+					changed the name from 'input' to 'input element'
+					updated the description
+					updated the example
+				added three sub rows:
+					name attribute
+					checkbox type
+					number type
+				added spacing in between characters
+				
+Next Time: 
+		continue work on input section
+					
+				
 			
 
 			
