@@ -1,3 +1,9 @@
+Resources:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input
+https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/cheatsheet
+https://www.color-hex.com/
+
+
 
 Date: Wednesday 21 September 22 
 Time: 6:41pm
@@ -54,6 +60,16 @@ To-Done:
 
 Next Time: 
 		update form file
+		
+Date: Tuesday 27 September 2022
+Time: 7:09pm
+
+Added links to websites that will be using for project.
+
+Today's Agenda:
+		update form file:
+			work on input section
+			rename 'elements' to 'tags'
 			
 
 			
