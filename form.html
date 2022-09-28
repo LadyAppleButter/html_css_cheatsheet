@@ -26,7 +26,7 @@
 				<thead class="title">
 					<!--Column headings-->
 					<tr>
-						<th class="colHead1">Element</th>
+						<th class="colHead1">Tag</th>
 						<th class="colHead2">Name</th>
 						<th class="colHead3">Description</th>
 						<th class="colHead4">Example</th>
@@ -37,6 +37,40 @@
 
 						 (Fri. 14 August 2020 12:25am) for right now, all files will share the same classes and indexes; although is says class=topicForm, the format will be apply to other files (such as the position file).-->
 						 
+					<!--INPUT-->
+					<tr class="topicInput">
+						<td class="element">&lt;input/&gt;</td>
+						<td class="name">Input Element</td>
+						<td class="description">Use to create input controls to accept data from the user. There are a vase number of types and attributes that are associated with the input tag; here we are discussing 8 common variations. <br>The <em>name</em> attribute and the <em>type</em> attribute are normally required for the element to run. 
+						<td class="example">&lt; input name = "food" type = "checkbox" value = "lasagna"/&gt;</td>
+					</tr>	 
+					
+					<tr class="topicInput">
+						<td class="element"></td>
+						<td class="name">Name Attribute</td>
+						<td class="description"><br>The <em>name</em> attribute is necessary to submit a form. <br> In the examples column, the input with the missing name attribute will not be able to submit it's information.</td>
+						<td class="example">&lt; input name = "applepie" id = "dessert"/&gt;<br><br>
+						&lt; input id = "dessert"/&gt;</td>
+					</tr>	 
+					
+					<tr class="topicInput">
+						<td class="element"></td>
+						<td class="name">Checkbox Type</td>
+						<td class="description"><br>The <em>checkbox</em> type creates a single checkbox item. Multiple boxes can be created but need to share the same name atttibute for the input to work.</td>
+						<td class="example">&lt; input type = "checkbox" name="dessert" value="applepie"/&gt;<br><br>
+						&lt; input type = "checkbox" name = "dessert" value = "chocolate chip cookie"/&gt;<br><br>
+						&lt; input type = "checkbox" name = "dessert" value = "vanilla icecream"/&gt;<br><br>
+						</td>
+					</tr>	 
+					
+					<tr class="topicInput">
+						<td class="element"></td>
+						<td class="name">Number Type</td>
+						<td class="description"><br>The <em>number</em> type allows users to type only numbers and a few special characters.</td>
+						<td class="example">&lt; input type = "number" name = "expiration date" /&gt;
+						</td>
+					</tr>	 
+					
 					<!--FORM-->	 
 					<tr class="topicForm">
 						<td class="element">&lt;form&gt;&lt;/form&gt;</td> 
@@ -49,13 +83,6 @@
 						<td class="example">&lt;form method="post" action="index.html"&gt; Enter favorite comfort food:<br> &lt;input type="text" name="food"/&gt;<br> &lt;input type="submit"/&gt;&lt;/form&gt;</td>
 					</tr>
 					
-					<!--INPUT-->
-					<tr class="topicInput">
-						<td class="element">&lt;input/&gt;</td>
-						<td class="name">Input</td>
-						<td class="description">Creates a variety of fields to be used on a webpage (ie. checkbox). <br>The <em>name</em> attribute and the <em>type</em> attribute are normally required for the element to run. <br> Other attributes (such as <em>id</em>) could be use.</td>
-						<td class="example">&lt;input name="food" type="text" id="food"/&gt;</td>
-					</tr>
 					
 					<!--LABEL-->
 					<tr class="topicLabel">
