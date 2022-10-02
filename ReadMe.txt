@@ -89,6 +89,14 @@ To - Done:
 				
 Next Time: 
 		continue work on input section
+		
+
+
+Date: Sun 2 October 2022
+Time: 6:50pm
+
+Today's agenda: 
+		Finish up the content under 'input'
 					
 				
 			
