@@ -133,7 +133,18 @@ For Next Time:
 			maxlength Attribute
 					
 				
-			
+Notes: 
+		Whenever we tackle the style sheet, some the rows and subrows will need to be renamed.
+		
+Plan for form.html:
+		Work on 4 topics
+		Work on the last 4 topics
+		Tweek existing information
+		Rearrange rows
+		Finale clean up
+		
+		
+		
 
 			
 			
