@@ -48,7 +48,7 @@
 					<tr class="topicInput">
 						<td class="element"></td>
 						<td class="name">Name Attribute</td>
-						<td class="description"><br>The <em>name</em> attribute is necessary to submit a form. <br> In the examples column, the input with the missing name attribute will not be able to submit it's information.</td>
+						<td class="description"><br>The <em>name</em> attribute is necessary to submit a form. In the examples column, the input with the missing name attribute will not be able to submit it's information.</td>
 						<td class="example">&lt; input name = "applepie" id = "dessert"/&gt;<br><br>
 						&lt; input id = "dessert"/&gt;</td>
 					</tr>	 
@@ -56,7 +56,7 @@
 					<tr class="topicInput">
 						<td class="element"></td>
 						<td class="name">Checkbox Type</td>
-						<td class="description"><br>The <em>checkbox</em> type creates a single checkbox item. Multiple boxes can be created but need to share the same name atttibute for the input to work.</td>
+						<td class="description"><br>The <em>checkbox</em> type creates a single checkbox item. Multiple boxes can be created but need to share the same name atttibute for the input to work. Users can select multiple checkboxes at once.</td>
 						<td class="example">&lt; input type = "checkbox" name="dessert" value="applepie"/&gt;<br><br>
 						&lt; input type = "checkbox" name = "dessert" value = "chocolate chip cookie"/&gt;<br><br>
 						&lt; input type = "checkbox" name = "dessert" value = "vanilla icecream"/&gt;<br><br>
@@ -68,6 +68,50 @@
 						<td class="name">Number Type</td>
 						<td class="description"><br>The <em>number</em> type allows users to type only numbers and a few special characters.</td>
 						<td class="example">&lt; input type = "number" name = "expiration date" /&gt;
+						</td>
+					</tr>
+					
+					<tr class="topicInput">
+						<td class="element"></td>
+						<td class="name">Range Type</td>
+						<td class="description"><br>The <em>range</em> type allows users to create a slider between a minimum and maximum value. The purpose of this type is more to create a visual widget.</td>
+						<td class="example">&lt; input type = "range" name = "Sweetness rating" min = "1" max = "10" step = "1" /&gt;
+						</td>
+					</tr>	 
+					
+					<tr class="topicInput">
+						<td class="element"></td>
+						<td class="name">Text Type</td>
+						<td class="description"><br>The <em>text</em> type displays a single blank line for inputting text.</td>
+						<td class="example">&lt; input type = "text" name = "Favorite Autumn Fruit" /&gt;
+						</td>
+					</tr>	 
+					
+					<tr class="topicInput">
+						<td class="element"></td>
+						<td class="name">Radio Button Type</td>
+						<td class="description"><br>The <em>radio</em> type allows users to create a radio button. Multiple radio buttons can be create but all must share the same name attribute. Unlike the checkbox type, only one radio button can be selected at a time.  </td>
+						<td class="example">
+						&lt; input type = "radio" name = "Type of cheese" value = "Colby" /&gt;<br><br>
+						&lt; input type = "radio" name = "Type of cheese" value = "Cheddar" /&gt;<br><br>
+						&lt; input type = "radio" name = "Type of cheese" value = "Swiss" /&gt;
+						</td>
+					</tr>	
+					
+					<tr class="topicInput">
+						<td class="element"></td>
+						<td class="name">Password Type</td>
+						<td class="description"><br>The <em>password</em> type displays a single line where the input information is censored. This type is used for inputting sensitive information. When submitting, the value is sent uncensored.</td>
+						<td class="example">&lt; input type = "text" name = "VegHead username" /&gt;<br><br>
+						&lt; input type = "password" name = "password" /&gt;
+						</td>
+					</tr>	 
+					
+					<tr class="topicInput">
+						<td class="element"></td>
+						<td class="name">Submit Type</td>
+						<td class="description"><br>The <em>submit</em> type displays a button that will execute an action (submit the form). By default, the text on the button reads 'submit'. </td>
+						<td class="example">&lt; input type = "submit" value = "send" /&gt;
 						</td>
 					</tr>	 
 					
