@@ -1,6 +1,6 @@
 Resources:
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input
-https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/cheatsheet
+https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/cheatsheet (10/2/22)
 https://www.color-hex.com/
 
 
@@ -97,6 +97,40 @@ Time: 6:50pm
 
 Today's agenda: 
 		Finish up the content under 'input'
+		
+To-Done:
+		Added 5 rows under 'input':
+			Radio Button
+			Submit
+			Text
+			Range
+			Password
+		Each row had its name, description, and example updated 
+		Made some tweeks to Checkbox 
+			updated description
+		Updated the syntax of the examples	
+			removed spaces
+			removed unnecessary punctuations
+			
+Rows to add:
+		Submitting a Form
+		Required Attribute
+		max Attribute
+		maxlength Attribute
+		Pattern Attribute
+		minlength Attribute
+		HTML Validators
+		min Attribute
+		
+Thoughts:
+		There is no rhyme or reason for the order of information on the codecademy website. The order listed above is how it is ordered on their webpage. After everything log in, a method of order for this webpage needs to be determine. Also, not all their entries have examples attached to them. 
+		
+For Next Time:
+		Tackle 4 topics:
+			Submitting a Form
+			Required Attribute
+			max Attribute
+			maxlength Attribute
 					
 				
 			
