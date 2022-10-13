@@ -143,6 +143,16 @@ Plan for form.html:
 		Rearrange rows
 		Finale clean up
 		
+Date: Thurs 13 October 2022
+Time: 6:15pm
+
+Today's agenda:
+		Add name, description, and example for the following topics:
+			Submitting a Form
+			Required Attribute
+			max Attribute
+			maxlength Attribute
+		
 		
 		
 
