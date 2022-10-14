@@ -1,6 +1,6 @@
 Resources:
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input
-https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/cheatsheet (10/2/22)
+https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/cheatsheet (10/14/22)
 https://www.color-hex.com/
 
 
@@ -166,6 +166,18 @@ Notes:
 For Next Time:
 		The four remaining topics:
 			Pattern Attribute
+			minlength Attribute
+			HTML Validators
+			min Attribute
+			
+Date: Friday 14 October 2022
+Time: 5:47pm
+
+Notes: Everytime we access the websites from the resource, the day on which the website was access will be recorded.
+
+Today's Agenda:
+	Finish up recording the topics for form.html:
+		Pattern Attribute
 			minlength Attribute
 			HTML Validators
 			min Attribute
