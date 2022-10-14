@@ -152,6 +152,23 @@ Today's agenda:
 			Required Attribute
 			max Attribute
 			maxlength Attribute
+			
+To-Done: 
+		Added name, description, and examples for the following topics:
+			Submitting a Form
+			Required Attribute
+			max Attribute
+			maxlength Attribute
+			
+Notes:
+		After coding the form.html page; the classes for some of the rows needs to change. 
+		
+For Next Time:
+		The four remaining topics:
+			Pattern Attribute
+			minlength Attribute
+			HTML Validators
+			min Attribute
 		
 		
 		
