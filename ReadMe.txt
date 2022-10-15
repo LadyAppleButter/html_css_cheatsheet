@@ -178,9 +178,20 @@ Notes: Everytime we access the websites from the resource, the day on which the 
 Today's Agenda:
 	Finish up recording the topics for form.html:
 		Pattern Attribute
-			minlength Attribute
-			HTML Validators
-			min Attribute
+		minlength Attribute
+		HTML Validators
+		min Attribute
+		
+To-Done:
+	Added the last remaining topics to form.html:
+		Pattern Attribute
+		minlength Attribute
+		HTML Validators
+		min Attribute
+		
+Next Time:
+	Edit the text and format of form.html
+	
 		
 		
 		
