@@ -1,0 +1,39 @@
+/*Idea is to have multiple pages attached this style sheet. Some selectors will remain constant across all pages (i.e. .description and .example) but some will change depending on the topic; element, attribute, value, and property classes are going to vary from page to page.*/
+
+/*Background color for entire webpage*/
+html{
+	background-color: orange;
+}
+/*highlight key terms in paragraphs*/
+em{
+	color: blue;
+}
+
+.title{
+	display: flex;
+}
+ /*Links*/
+
+a:link {
+
+	text-decoration: none;
+	color: white;
+	
+}
+
+.links  {
+	display: flex;
+	flex-direction: row;
+
+}
+.headings {
+	display: flex;
+}
+
+.body {
+	display: flex;
+}
+
+.definition {
+	display: flex;
+}
