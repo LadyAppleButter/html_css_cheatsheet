@@ -2,8 +2,9 @@ Resources:
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input
 https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/cheatsheet (10/14/22)
 https://www.color-hex.com/
-
-
+https://www.hostinger.com/tutorials/basic-git-commands
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+https://www.w3schools.com/html/default.asp
 
 Date: Wednesday 21 September 22 
 Time: 6:41pm
@@ -192,7 +193,34 @@ To-Done:
 Next Time:
 	Edit the text and format of form.html
 	
-		
+Date: Tuesday 11 July 2023
+Time: 2:15pm
+
+Objective: transition from basic html and css to more advance css.
+
+Today Agenda: Break the page into sections
+
+Task to Complete:
+Define sections
+Create a copy of the html file
+Create a copy of the css file
+Create two blocks of text
+
+Task Completed:
+Define sections
+	title
+	headings
+	defintion
+	body
+	target
+Create copies
+	realize the links on the page were in connecting to the original file; created a folder to hold the new html and css files
+
+Note: when creating a flexbox, it is important to define what that flexbox is. Originally was using multiple selectors to define a flexbox. Apparently, that is a big no no. The assumption is that multiple selectors implies multiple area of coverage; to initiate a flexbox the area needs to specific, at least that our interruptation. 
+
+For Next Time:
+Create two blocks of text
+
 		
 		
 
