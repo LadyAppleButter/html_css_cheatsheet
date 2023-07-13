@@ -36,4 +36,16 @@ a:link {
 
 .definition {
 	display: flex;
+	flex-flow: wrap;	
+}
+
+.definition > div  {
+	width: 100px;
+	line-height: 25px;
+	margin: 10px;
+	background-color: white;
+}
+
+.definition > div:hover{
+	background-color: red;
 }
