@@ -6,6 +6,10 @@ https://www.hostinger.com/tutorials/basic-git-commands
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 https://www.w3schools.com/html/default.asp
 
+
+Common commands to remember:
+use start "file.html" to open an html file in a web browser
+
 Date: Wednesday 21 September 22 
 Time: 6:41pm
 
@@ -222,8 +226,34 @@ For Next Time:
 Create two blocks of text
 
 		
-		
+Date: Thursday 13 July 2023
+Time: 4:40pm
 
-			
-			
+Note: to open an html file type use start "file.html"
+
+Today's Agenda: 
+Create child container(2) within in a flexbox
+
+Tasks:
+Within the .definition container, two child elements will be created
+	1) for now, it is just be the word and definition 
+	2) information will be pulled from form.html
+
+https://www.w3schools.com/howto/howto_css_dropdown.asp
+
+To-Done:
+Added terms and phrases to webpage to guage how they move when changing the css file
+Added height and margins to the .definition container
+Incapsulate the terms and phrases into their own boxes
+Found an article on creating hover drop down list
+
+Note:
+Just like it was important to define the container; it was also important to define the content.
+Found out adding css to the container did very little to the content. 
+The content needs to be access on a seperate line of code for there to be any affects.
+.flexbox > div for example
+
+For Next Time: 
+We will impliment the hover drop down menu
+Possibley look up an example on youtube or tiktok
 			
