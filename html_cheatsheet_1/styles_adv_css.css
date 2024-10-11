@@ -1,5 +1,7 @@
 /*Idea is to have multiple pages attached this style sheet. Some selectors will remain constant across all pages (i.e. .description and .example) but some will change depending on the topic; element, attribute, value, and property classes are going to vary from page to page.*/
 
+/********************** GOBAL ********************/
+
 /*Background color for entire webpage*/
 html{
 	background-color: orange;
@@ -8,6 +10,9 @@ html{
 em{
 	color: blue;
 }
+
+
+/********************** TITLE ********************/
 
 .title{
 	display: flex;
@@ -24,16 +29,26 @@ a:link {
 .links  {
 	display: flex;
 	flex-direction: row;
+	gap:5px;
 
 }
 .headings {
 	display: flex;
 }
 
-.body {
-	display: flex;
+/********************** BODY ********************/
+
+
+
+.info-table {
+	display: grid;
+	grid-template-columns: 200px 1fr 1fr;
+	row-gap: 10px;
+	column-gap: 5px;
+	margin-left: 10px;
 }
 
+/*
 .definition {
 	display: flex;
 	flex-flow: wrap;	
@@ -49,3 +64,6 @@ a:link {
 .definition > div:hover{
 	background-color: red;
 }
+	*/
+
+/********************** FOOTER ********************/	

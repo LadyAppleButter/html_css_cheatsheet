@@ -10,6 +10,31 @@ https://www.w3schools.com/html/default.asp
 ------------------ Common commands to remember ------------------
 >> use start "file.html" to open an html file in a web browser
 
+///2024///
+
+2024 October 10 Thursday
+
+It has been awhile. Working on another project and wanted to update ( and maybe continue) this project.
+
+UPDATE
+
+FORM
+	> Had to comment some items; 
+		> 'key term and phrases'; does not feel necessary but don't want to delete it youtube
+		> 'input'; cannot find where we got that info. does not appear to be on the previous form page
+	> Renamed a class to remove redunacey
+		> 'definition' to 'info-table'
+	> Added definitions and examples to 'input' and 'datalist' 
+	> Added divs and classes to the remaining info-table
+
+STYLES
+	> commented out old style for the body 
+	> note: found out the display we were trying to use was not working because we was using to the wrond selector type ('.body instead of body')
+	> seperated css into sections
+	> added class selector (info-table) and set display to grid
+		> set grid to display 3 columns with some margins and gutter for readablity 
+
+
 ///2023///
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>> November >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
