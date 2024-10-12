@@ -41,14 +41,21 @@
 			</section>
 
 			<!--<div>Key Terms and Phrases</div>-->
+
+			
+					<!--
+					*************TEMPLATE************	
+					<div class = "term"></div>
+					<div class = "defintion"></div>
+					<div class = "example"></div>	
+					-->	
 			
 			<section class="info-table">
 					<!--<div class = "term">Form:
 						<div>collects information and sends it on to the intended desitnation</div>
 					</div>-->
 					
-					
-					
+				<!-------------------------------****INPUT****--------------------->
 					<div class = "term">Input</div>
 					<div class = "definition">
 						Use to create input controls to accept data from the user. There are a vase number of types and attributes that are associated with the input tag; here we are discussing 8 common variations. <br>The <em>name</em> attribute and the <em>type</em> attribute are normally required for the element to run.
@@ -56,6 +63,7 @@
 					<div class = "example">
 						&lt; input name = "food" type = "checkbox" value = "lasagna"/&gt </div>
 					
+				<!-------------------------------****DATALIST****--------------------->
 					<div class = "term">Datalist</div>
 					<div class = "definition">
 						Creates an autocomplete/select function for a webpage. <br>Commonly paired with the <em>input</em> element, the <em>option</em> element, the <em>id</em> attribute, and the <em>value</em> attribute.
@@ -65,57 +73,116 @@
 
 					</div>
 					
-					
+				<!-------------------------------****TEXTAREA****--------------------->	
 					<div class = "term">TextArea</div>
-					<div class = "definition"></div>
-					<div class = "example"></div>
+					<div class = "definition">
+						Used to create a form with multiple lines for input. 
+					</div>
+					<div class = "example">
+						&lt;textarea cols="5" row="6" name="recipe"&gt; &lt;/textarea&gt;
+					</div>
 					
+				<!-------------------------------****SELECT****--------------------->	
 					<div class = "term">Select</div>
-					<div class = "definition"></div>
-					<div class = "example"></div>
-					
+					<div class = "definition">
+						Used to create a dropdown list. Paired with the <em>name</em> attribute and the <em>value</em> attribute as well as the <em>option</em> element.
+					</div>
+					<div class = "example">
+						&lt;select name="types of breads"&gt; &lt;option value="potato"&gt; Potato &lt;/option&gt; &lt;option value="wheat"&gt; Wheat &lt;/option&gt;<br> &lt;option value="white"&gt; White &lt;/option&gt; <br>&lt;/select&gt;
+					</div>
+				
+				<!-------------------------------****MINLENGTH****--------------------->	
 					<div class = "term">Min Length</div>
-					<div class = "definition"></div>
-					<div class = "example"></div>
+					<div class = "definition">
+						Users can be required to input a minimum amount of characters into a text field. The minlength attribute determines the smallest character count allowed. 
 
+					</div>
+					<div class = "example">
+						&lt; input type = "text" minlength = "5" &gt;
+					</div>
+
+				<!-------------------------------****MAXLENGTH****--------------------->	
 					<div class = "term">Max Length </div>
-					<div class = "definition"></div>
-					<div class = "example"></div>
-
+					<div class = "definition">
+						The max attribute determines the maxium value (the highest value) for a number input field.
+					</div>
+					<div class = "example">
+						&lt; input type = "number"  max = "25" /&gt;
+					</div>
+				
+				<!-------------------------------****NAME ATTRIBUTE****--------------------->	
 					<div class = "term">Name Attribute</div>
-					<div class = "definition"></div>
-					<div class = "example"></div>
+					<div class = "definition">
+						<br>The <em>name</em> attribute is necessary to submit a form. In the examples column, the input with the missing name attribute will not be able to submit it's information.</td>
+					</div>
+					<div class = "example">
+						&lt; input name = "applepie" id = "dessert"/&gt;<br><br>
+						&lt; input id = "dessert"/&gt;
+					</div>
 
+				<!-------------------------------****PATTERN ATTRIBUTE****--------------------->	
 					<div class = "term">Pattern Attribute</div>
-					<div class = "definition"></div>
-					<div class = "example"></div>
+					<div class = "definition">
+						A pattern attribute is used to validate a value when submitting a form.
 
+					</div>
+					<div class = "example">
+						&lt; form action = "/index.html"&gt; 
+							<br> country code: 
+							<br><br> &lt; input type = "text" <br> name = "country_code" <br> pattern = "[A-Za-z]{3}" <br> title = "Three letter country code" &gt;
+							<br><br> &lt; input type = "submit" &gt;
+							<br><br> &lt;/form&gt;
+					</div>
+
+				<!-------------------------------****MAX ATTRIBUTE****--------------------->	
 					<div class = "term">Max Attribute</div>
-					<div class = "definition"></div>
-					<div class = "example"></div>
+					<div class = "definition">
+						The maxlength attribute determines the maxium value (the highest value) for a text input field.
+					</div>
+					<div class = "example">
+						&lt; input type = "text"  max = "250" /&gt;
+					</div>
 
-					<div class = "term">Min Length</div>
-					<div class = "definition"></div>
-					<div class = "example"></div>
+				<!-------------------------------****MIN ATTRIBUTE****--------------------->	
+					<div class = "term">Min Attribute</div>
+					<div class = "definition">
+						Users can be required to input a minimum amount of characters into a text field. The minlength attribute determines the smallest character count allowed.
+					</div>
+					<div class = "example">
+						&lt; input type = "text" minlength = "5" &gt;
+					</div>
 
+				<!-------------------------------****SUBMIT TYPE****--------------------->	
 					<div class = "term">Submit Type</div>
-					<div class = "definition"></div>
-					<div class = "example"></div>
+					<div class = "definition">
+						<br>The <em>submit</em> type displays a button that will execute an action (submit the form). By default, the text on the button reads 'submit'.
+					</div>
+					<div class = "example">
+						&lt; input type = "submit" value = "send" /&gt;
+					</div>
 
+				<!-------------------------------****REQUIRE ATTRIBUTE****--------------------->	
 					<div class = "term">Require Attribute</div>
-					<div class = "definition"></div>
-					<div class = "example"></div>
+					<div class = "definition">
+						The required attribute makes it mandatory for a value to be inputted in the field.
+					</div>
+					<div class = "example">
+						&lt; input type = "password"  name = "password" required/&gt;
+					</div>
 
+				<!-------------------------------****SUBMITTING A FORM****--------------------->	
 					<div class = "term">Submitting a Form</div>
-					<div class = "definition"></div>
-					<div class = "example"></div>
+					<div class = "definition">
+						Once information is collected in a form, it can be sent somewhere else using action attribute and method attribute. Action attribute tells the form to send the information; an URL is involved. Method attribute tells the form what to do with the information once it is sent.
+					</div>
+					<div class = "example">
+						&lt; form action = "/index.html" method = "PUT" &gt;&lt;/form&gt;
+					</div>
 
 
 					
 			</section>
 			
-			<section class = "body">
-
-			</section>
+			
 	</body>
 </html>
