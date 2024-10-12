@@ -12,6 +12,36 @@ https://www.w3schools.com/html/default.asp
 
 ///2024///
 
+
+2024 October 12 Saturday
+
+We noticed a folder named misc and it contained a file named postion.html.
+Do not know why it is seperate from the rest of the files.
+It has comments dated back to 2020.
+Fixed the pathing to the css page
+
+UPDATE
+	form_adv
+		> added cotent to the rest of the table
+		> added commented out headings to easily id items on the table
+		> added a template for future web pages
+
+NEXT TIME
+> formatting the table
+	> middle column: either change the text wrap or the size of the column
+	> padding in between the rows
+
+FUTURE TASKS
+> formate links 
+> decide on keeping 'form element'
+> formate h1
+> remove unnecessary code
+> rewrite definitions and examples 
+> decide on themes and fonts
+> add a 'back to top' Button
+> add the rest of the web pages
+> connect pages 
+
 2024 October 10 Thursday
 
 It has been awhile. Working on another project and wanted to update ( and maybe continue) this project.
