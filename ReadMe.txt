@@ -10,8 +10,38 @@ https://www.w3schools.com/html/default.asp
 ------------------ Common commands to remember ------------------
 >> use start "file.html" to open an html file in a web browser
 
+KEY:
+>>> task is completed
+* alert
+
 ///2024///
 
+2024 October 17 Thursday
+
+Today we are adding the other pages, connecting them to one another and to the css page.
+
+Note: in there is a link called 'intoduction'. Not going to worry about it, we not making a page but (for now at least) we just going to leave the link.
+
+UPDATE
+	> added pages to our project(index, table, and semantics)
+	> copied the format from form to the new pages
+	> updated the page title and the h1 with respect to the page
+	> comment out the introduction link
+	> updated the links 
+		> the links on form was not correct and needed to be fix
+
+TASKS
+> formate links 
+> decide on keeping 'form element'
+> formate h1
+> remove unnecessary code
+> rewrite definitions and examples 
+> decide on themes and fonts
+> add a 'back to top' Button
+>>>* add the rest of the web pages
+>>>* connect pages
+
+*Dont know how many pages this project will be 
 
 2024 October 12 Saturday
 
