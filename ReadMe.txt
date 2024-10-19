@@ -16,7 +16,51 @@ KEY:
 
 ///2024///
 
-2024 October 17 Thursday
+------------------ 2024 October 18 Friday ------------------
+
+Today we are adding content to table_adv_css.
+The content added will be the term/ phrase and the definition. 
+Examples will be another day.
+
+Also, previously we were writing the wepages as 'form' not 'form_adv_css'. 
+Those are two different webpages. 
+
+If reading from 2024 note that the webpages being discussed are located in the html_cheatsheet_1 folder.
+We will be spelling out the entire file name from here on out.
+
+Note: as we were typing content in, we were questioning the usefulness of table element
+We also were questioning ourself for orginally using the table element. 
+What we think happened was we wanted to show an evolution of a basic webpage; 
+	using dated methods to more modern ones. This could explain why there are 
+	two websites in the folder. We also wanted to show the progress of our education.
+	Of course, this was done before we had a git hub or knew what a repository was. 
+
+UPDATE
+
+> added content to table_adv_css
+	> copied format from form_adv_css
+	> added the term/phrase and corresponding defintion 
+	> added commented headings for ease of reading
+
+NOTES:
+	> decided to skip putting parathese around elements, that will done on a later date
+	> decide if and how to format the the attributes (colspan and rowspan) 
+
+
+TASKS
+> formate links 
+> decide on keeping 'form element'
+> formate h1
+> remove unnecessary code
+> rewrite definitions and examples 
+> decide on themes and fonts
+> add a 'back to top' Button
+> add content to web pages
+> format elements and attributes within paragraph
+>>>* add the rest of the web pages
+>>>* connect pages
+
+------------------ 2024 October 17 Thursday ------------------
 
 Today we are adding the other pages, connecting them to one another and to the css page.
 
@@ -38,12 +82,13 @@ TASKS
 > rewrite definitions and examples 
 > decide on themes and fonts
 > add a 'back to top' Button
+> add content to web pages
 >>>* add the rest of the web pages
 >>>* connect pages
 
 *Dont know how many pages this project will be 
 
-2024 October 12 Saturday
+------------------ 2024 October 12 Saturday ------------------
 
 We noticed a folder named misc and it contained a file named postion.html.
 Do not know why it is seperate from the rest of the files.
@@ -72,7 +117,7 @@ FUTURE TASKS
 > add the rest of the web pages
 > connect pages 
 
-2024 October 10 Thursday
+------------------ 2024 October 10 Thursday ------------------
 
 It has been awhile. Working on another project and wanted to update ( and maybe continue) this project.
 
