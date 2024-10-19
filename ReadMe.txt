@@ -16,6 +16,30 @@ KEY:
 
 ///2024///
 
+------------------ 2024 October 19 Saturday ------------------
+Today we are adding some formating to the links.
+
+UPDATE
+
+> changed the color of visited links from default to brown
+> changed the links hover color to white
+
+TASKS
+> formate links 
+> decide on keeping 'form element'
+> formate h1
+> remove unnecessary code
+> rewrite definitions and examples 
+> decide on themes and fonts
+> write mockup for format of webpages
+> decide what index_adv_css will display
+> add a 'back to top' Button
+> add content to web pages
+> format elements and attributes within paragraph
+>>>* add the rest of the web pages
+>>>* connect pages
+
+
 ------------------ 2024 October 18 Friday ------------------
 
 Today we are adding content to table_adv_css.
