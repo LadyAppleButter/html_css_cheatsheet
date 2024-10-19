@@ -26,6 +26,14 @@ a:link {
 	
 }
 
+a:visited {
+	color: brown;
+}
+
+a:hover {
+	color: white;
+}
+
 .links  {
 	display: flex;
 	flex-direction: row;
